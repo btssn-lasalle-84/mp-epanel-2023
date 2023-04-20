@@ -9,7 +9,7 @@ if (isset($_POST['action']) && $_POST['action'] == 'executer') {
   $arg = escapeshellarg($texte);
 
   // Définit la commande à exécuter pour lancer l'application avec l'argument correspondant 
-  $command = 'cd C:\xampp\htdocs\E-Panel\php && start /B pano3-0.exe ' . $arg;
+  $command = 'cd C:\xampp\htdocs\EPANNEL_2023-Main\E-Panel\php && start /B pano3-0.exe ' . $arg;
   exec($command);
 }
 // Arrête l'exécution du script PHP

@@ -32,7 +32,6 @@ SET time_zone = "+00:00";
 CREATE TABLE `infopanneau` (
   `ID` int(11) NOT NULL,
   `Message` text NOT NULL,
-  `Position` int(11) NOT NULL,
   `Symbole` text NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
@@ -40,15 +39,15 @@ CREATE TABLE `infopanneau` (
 -- Déchargement des données de la table `infopanneau`
 --
 
-INSERT INTO `infopanneau` (`ID`, `Message`, `Position`, `Symbole`) VALUES
-(1, 'Bus', 230, '->'),
-(2, 'Metro', 330, '->'),
-(3, 'Mcdo', 500, '->'),
-(4, 'Cinema', 670, '->'),
-(5, 'Maire', 456, '->'),
-(6, 'Ecole', 140, '->'),
-(7, 'Piscine', 230, '->'),
-(8, 'Republique', 270, '->');
+INSERT INTO `infopanneau` (`ID`, `Message`, `Symbole`) VALUES
+(1, 'Bus','->'),
+(2, 'Metro','->'),
+(3, 'Mcdo','->'),
+(4, 'Cinema','->'),
+(5, 'Mairie','->'),
+(6, 'Ecole','->'),
+(7, 'Piscine','->'),
+(8, 'Republique','->');
 
 --
 -- Index pour les tables déchargées
