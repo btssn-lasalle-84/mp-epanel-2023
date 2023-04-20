@@ -44,7 +44,7 @@ if(isset($_POST['action'])){
                 if (isset($_POST['action']) && $_POST['action'] == 'executer') {
                     $arg = $valeur_1 ; // Récupération de la valeur
                     echo ''.$arg.''; // Transfert de la valeur à JavaScript
-                    $command = 'cd C:\xampp\htdocs\E-Panel\php && start /B pano3-0.exe "'.$arg.' ->"'; //Commande d'execution 
+                    $command = 'cd C:\xampp\htdocs\EPANNEL_2023-Main\E-Panel1\php && start /B pano3-0.exe "'.$arg.' ->"'; //Commande d'execution
                     exec($command);
                     // Afficher la valeur de $arg dans la balise HTML avec l'ID MessageActuel
                     
@@ -79,7 +79,7 @@ if(isset($_POST['action'])){
                 if (isset($_POST['action']) && $_POST['action'] == 'executer') {
                     $arg = $valeur_1; // Récupération de la valeur
                     echo ''.$arg.''; // Transfert de la valeur à JavaScript
-                    $command = 'cd C:\xampp\htdocs\E-Panel\php && start /B pano3-0.exe "'.$arg.' ->"'; //Commande d'execution 
+                    $command = 'cd C:\xampp\htdocs\EPANNEL_2023-Main\E-Panel1\php && start /B pano3-0.exe "'.$arg.' ->"'; //Commande d'execution 
                     exec($command);
                     // Afficher la valeur de $arg dans la balise HTML avec l'ID MessageActuel
                     
@@ -114,7 +114,7 @@ if(isset($_POST['action'])){
                 if (isset($_POST['action']) && $_POST['action'] == 'executer') {
                     $arg = $valeur_1; // Récupération de la valeur
                     echo ''.$arg.''; // Transfert de la valeur à JavaScript
-                    $command = 'cd C:\xampp\htdocs\E-Panel\php && start /B pano3-0.exe "'.$arg.' ->"'; //Commande d'execution
+                    $command = 'cd C:\xampp\htdocs\EPANNEL_2023-Main\E-Panel1\php && start /B pano3-0.exe "'.$arg.' ->"'; //Commande d'execution
                     exec($command);
                     // Afficher la valeur de $arg dans la balise HTML avec l'ID MessageActuel
                     
@@ -149,7 +149,7 @@ if(isset($_POST['action'])){
                 if (isset($_POST['action']) && $_POST['action'] == 'executer') {
                     $arg = $valeur_1; // Récupération de la valeur
                     echo ''.$arg.''; // Transfert de la valeur à JavaScript
-                    $command = 'cd C:\xampp\htdocs\E-Panel\php && start /B pano3-0.exe "'.$arg.' ->"'; //Commande d'execution
+                    $command = 'cd C:\xampp\htdocs\EPANNEL_2023-Main\E-Panel1\php && start /B pano3-0.exe "'.$arg.' ->"'; //Commande d'execution
                     exec($command);
                     // Afficher la valeur de $arg dans la balise HTML avec l'ID MessageActuel
                     
@@ -184,7 +184,7 @@ if(isset($_POST['action'])){
                 if (isset($_POST['action']) && $_POST['action'] == 'executer') {
                     $arg = $valeur_1; // Récupération de la valeur
                     echo ''.$arg.''; // Transfert de la valeur à JavaScript
-                    $command = 'cd C:\xampp\htdocs\E-Panel\php && start /B pano3-0.exe "'.$arg.' ->"';  //Commande d'execution
+                    $command = 'cd C:\xampp\htdocs\EPANNEL_2023-Main\E-Panel1\php && start /B pano3-0.exe "'.$arg.' ->"'; //Commande d'execution
                     exec($command);
                     // Afficher la valeur de $arg dans la balise HTML avec l'ID MessageActuel
                     
@@ -219,7 +219,7 @@ if(isset($_POST['action'])){
                 if (isset($_POST['action']) && $_POST['action'] == 'executer') {
                     $arg = $valeur_1; // Récupération de la valeur
                     echo ''.$arg.''; // Transfert de la valeur à JavaScript
-                    $command = 'cd C:\xampp\htdocs\E-Panel\php && start /B pano3-0.exe "'.$arg.' ->"'; //Commande d'execution
+                    $command = 'cd C:\xampp\htdocs\EPANNEL_2023-Main\E-Panel1\php && start /B pano3-0.exe "'.$arg.' ->"'; //Commande d'execution
                     exec($command);
                     // Afficher la valeur de $arg dans la balise HTML avec l'ID MessageActuel
                     
@@ -254,7 +254,7 @@ if(isset($_POST['action'])){
                 if (isset($_POST['action']) && $_POST['action'] == 'executer') {
                     $arg = $valeur_1; // Récupération de la valeur
                     echo ''.$arg.''; // Transfert de la valeur à JavaScript
-                    $command = 'cd C:\xampp\htdocs\E-Panel\php && start /B pano3-0.exe "'.$arg.' ->"'; //Commande d'execution
+                    $command = 'cd C:\xampp\htdocs\EPANNEL_2023-Main\E-Panel1\php && start /B pano3-0.exe "'.$arg.' ->"'; //Commande d'execution
                     exec($command);
                     // Afficher la valeur de $arg dans la balise HTML avec l'ID MessageActuel
                     
@@ -289,7 +289,7 @@ if(isset($_POST['action'])){
                 if (isset($_POST['action']) && $_POST['action'] == 'executer') {
                     $arg = $valeur_1; // Récupération de la valeur
                     echo ''.$arg.''; // Transfert de la valeur à JavaScript
-                    $command = 'cd C:\xampp\htdocs\E-Panel\php && start /B pano3-0.exe "'.$arg.' ->"'; //Commande d'execution
+                    $command = 'cd C:\xampp\htdocs\EPANNEL_2023-Main\E-Panel1\php && start /B pano3-0.exe "'.$arg.' ->"'; //Commande d'execution
                     exec($command);
                     // Afficher la valeur de $arg dans la balise HTML avec l'ID MessageActuel
                     
