@@ -30,7 +30,8 @@ Pour utiliser le journal lumineux*, il suffit de se connecter à l'application w
 ## Capture
 ### ***Interface Home-Machine :***
 ![IHM-Web](https://github.com/btssn-lasalle-84/mp-epanel-2023/blob/23d1fa3511586dd38d147c9c5866f7780894c137/Epannel_2023-main/E-Panel1/IMG/IHM.png)
-
+### ***Journal lumineux :***
+![Journal-lumi](https://github.com/btssn-lasalle-84/mp-epanel-2023/blob/bd445b15d91aa16b73c6e51acf86d143ef8f93c5/Epannel_2023-main/E-Panel1/IMG/E-panel.gif)
 ## Auteurs
 
 Ce projet a été réalisé par les étudiants suivants :
