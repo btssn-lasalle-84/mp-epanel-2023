@@ -27,6 +27,10 @@ Pour utiliser le journal lumineux*, il suffit de se connecter à l'application w
 
 > ***Fonctionne uniquement sur ©️ Microsoft Windows** pour cette version
 
+## Capture
+### ***Interface Home-Machine :***
+![IHM-Web](https://github.com/btssn-lasalle-84/mp-epanel-2023/blob/23d1fa3511586dd38d147c9c5866f7780894c137/Epannel_2023-main/E-Panel1/IMG/IHM.png)
+
 ## Auteurs
 
 Ce projet a été réalisé par les étudiants suivants :
