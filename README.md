@@ -27,6 +27,64 @@ Pour utiliser le journal lumineux*, il suffit de se connecter à l'application w
 
 > ***Fonctionne uniquement sur ©️ Microsoft Windows** pour cette version
 
+## Base de données
+
+Pour créer la base de données, exécutez cette commande dans le terminal MySQL : ```source C:\chemin\vers\le\fichier.sql```
+
+Ou importez-le dans phpMyAdmin.
+
+Base de données `e-panel` :
+
+```sql
+--
+-- Base de données : `e-panel`
+--
+CREATE DATABASE IF NOT EXISTS epanel;
+USE epanel;
+-- --------------------------------------------------------
+
+--
+-- Structure de la table `infopanneau`
+--
+
+CREATE TABLE `infopanneau` (
+  `ID` int(11) NOT NULL,
+  `Message` text NOT NULL,
+  `Symbole` text NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+--
+-- Chargement de données initiales pour la table `infopanneau`
+--
+
+INSERT INTO `infopanneau` (`ID`, `Message`, `Symbole`) VALUES
+(1, 'Bus','->'),
+(2, 'Metro','->'),
+(3, 'Mcdo','->'),
+(4, 'Cinema','->'),
+(5, 'Mairie','->'),
+(6, 'Ecole','->'),
+(7, 'Piscine','->'),
+(8, 'Republique','->');
+
+--
+-- Clé primaire (table `infopanneau`)
+--
+ALTER TABLE `infopanneau`
+  ADD PRIMARY KEY (`ID`);
+
+ALTER TABLE `infopanneau`
+  MODIFY `ID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=9;
+COMMIT;
+```
+
+## Captures
+
+### ***Interface Home-Machine :***
+![IHM-Web](https://github.com/btssn-lasalle-84/mp-epanel-2023/blob/23d1fa3511586dd38d147c9c5866f7780894c137/Epannel_2023-main/E-Panel1/IMG/IHM.png)
+### ***Journal lumineux :***
+![Journal-lumi](https://github.com/btssn-lasalle-84/mp-epanel-2023/blob/bd445b15d91aa16b73c6e51acf86d143ef8f93c5/Epannel_2023-main/E-Panel1/IMG/E-panel.gif)
+
 ## Auteurs
 
 Ce projet a été réalisé par les étudiants suivants :

@@ -22,7 +22,8 @@ SET time_zone = "+00:00";
 --
 -- Base de données : `e-panel`
 --
-
+CREATE DATABASE IF NOT EXISTS epanel;
+USE epanel;
 -- --------------------------------------------------------
 
 --
